@@ -1,3 +1,4 @@
+
 import type { Metadata } from 'next';
 import { MarketplaceAutomationForm } from '@/components/tools/marketplace-automation-form';
 
@@ -27,4 +28,9 @@ export default function MarketplaceAccountAutomationPage() {
 
       <section className="pb-16 md:pb-24">
         <div className="container mx-auto max-w-4xl px-4">
-            
+            <MarketplaceAutomationForm />
+        </div>
+      </section>
+    </div>
+  );
+}
