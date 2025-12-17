@@ -181,7 +181,7 @@ export const TESTIMONIALS = [
   },
   {
     quote: "From store development to daily operations, NovaNext is a true partner. Their team is responsive, knowledgeable, and genuinely cares about our success.",
-    name: "Aarav Sharma",
+    name: "Arpita Sharma",
     title: "Director, TechGadgets",
   },
 ];
