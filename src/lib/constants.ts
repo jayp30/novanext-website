@@ -211,4 +211,7 @@ export const TOOLS = [
   {
     href: '/dashboard',
     title: 'Performance Analytics Dashboard',
-    description: 'Track and visualize key metrics to gain actionable insights into your
+    description: 'Track and visualize key metrics to gain actionable insights into your marketplace performance.',
+    icon: BarChart,
+  },
+];
