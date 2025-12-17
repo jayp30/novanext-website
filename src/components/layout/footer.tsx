@@ -1,12 +1,12 @@
 import Link from 'next/link';
 import { Logo } from '@/components/logo';
-import { NAV_LINKS, LEGAL_LINKS, TOOLS } from '@/lib/constants';
+import { NAV_LINKS, LEGAL_LINKS } from '@/lib/constants';
 
 export function Footer() {
   return (
     <footer className="border-t bg-transparent">
       <div className="container mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-2 gap-8 md:grid-cols-5">
+        <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
           <div className="col-span-2 space-y-4 md:col-span-1">
             <Logo />
             <p className="text-sm text-muted-foreground">
@@ -28,18 +28,6 @@ export function Footer() {
                     Dashboard
                   </Link>
                 </li>
-            </ul>
-          </div>
-           <div>
-            <h3 className="font-semibold text-foreground">Tools</h3>
-            <ul className="mt-4 space-y-2">
-              {TOOLS.map((link) => (
-                <li key={link.href}>
-                  <Link href={link.href} className="text-sm text-muted-foreground hover:text-primary">
-                    {link.title}
-                  </Link>
-                </li>
-              ))}
             </ul>
           </div>
           <div>

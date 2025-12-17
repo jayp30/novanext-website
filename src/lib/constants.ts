@@ -9,16 +9,12 @@ import {
   Truck,
   BrainCircuit,
   type LucideIcon,
-  BarChart,
-  FileText,
-  BotMessageSquare,
 } from 'lucide-react';
 
 export const NAV_LINKS = [
   { href: '/', label: 'Home' },
   { href: '/about', label: 'About' },
   { href: '/services', label: 'Services' },
-  { href: '/tools', label: 'Tools' },
   { href: '/contact', label: 'Contact' },
 ];
 
@@ -192,25 +188,4 @@ export const LEGAL_LINKS = [
   { href: '/terms-and-conditions', label: 'Terms & Conditions' },
   { href: '/refund-policy', label: 'Refund & Cancellation' },
   { href: '/shipping-policy', label: 'Shipping Policy' },
-];
-
-export const TOOLS = [
-  {
-    href: '/tools/product-listing-optimizer',
-    title: 'Product Listing Optimizer',
-    description: 'Generate SEO-optimized titles, descriptions, and keywords for your products.',
-    icon: BotMessageSquare,
-  },
-  {
-    href: '/tools/marketplace-account-automation',
-    title: 'Marketplace Account Automation',
-    description: 'Get a customized checklist for setting up your seller account and staying compliant.',
-    icon: FileText,
-  },
-  {
-    href: '/dashboard',
-    title: 'Performance Analytics Dashboard',
-    description: 'Track and visualize key metrics to gain actionable insights into your marketplace performance.',
-    icon: BarChart,
-  },
 ];
