@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu } from 'lucide-react';
 
 import { cn } from '@/lib/utils';
 import { NAV_LINKS } from '@/lib/constants';
@@ -29,7 +29,7 @@ export function Header() {
                 href={link.href}
                 className={cn(
                   'text-sm font-medium transition-colors hover:text-primary',
-                  pathname === link.href ? 'text-primary' : 'text-foreground/60'
+                  pathname === link.href ? 'text-foreground' : 'text-foreground/60'
                 )}
               >
                 {link.label}
@@ -39,11 +39,8 @@ export function Header() {
         </div>
 
         <div className="flex flex-1 items-center justify-end space-x-2">
-          <Button asChild className="hidden md:inline-flex" variant="outline">
-            <Link href="/contact">Talk to Experts</Link>
-          </Button>
-          <Button asChild className="hidden md:inline-flex">
-            <Link href="/tools">Get Started</Link>
+          <Button asChild>
+            <Link href="/dashboard">Dashboard</Link>
           </Button>
         </div>
 
@@ -72,14 +69,16 @@ export function Header() {
                   {link.label}
                 </Link>
               ))}
-            </div>
-            <div className="mt-8 flex flex-col space-y-3">
-              <Button asChild variant="outline">
-                <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)}>Talk to Experts</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/tools" onClick={() => setIsMobileMenuOpen(false)}>Get Started</Link>
-              </Button>
+               <Link
+                  href="/dashboard"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className={cn(
+                    'text-lg font-medium transition-colors hover:text-primary',
+                    pathname === '/dashboard' ? 'text-primary' : 'text-foreground/80'
+                  )}
+                >
+                  Dashboard
+                </Link>
             </div>
           </SheetContent>
         </Sheet>

@@ -19,8 +19,6 @@ export const NAV_LINKS = [
   { href: '/about', label: 'About' },
   { href: '/services', label: 'Services' },
   { href: '/tools', label: 'Tools' },
-  { href: '/dashboard', label: 'Dashboard' },
-  { href: '/contact', label: 'Contact Us' },
 ];
 
 export type Service = {
