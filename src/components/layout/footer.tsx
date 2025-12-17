@@ -4,7 +4,7 @@ import { NAV_LINKS, LEGAL_LINKS, TOOLS } from '@/lib/constants';
 
 export function Footer() {
   return (
-    <footer className="border-t bg-card">
+    <footer className="border-t bg-transparent">
       <div className="container mx-auto max-w-7xl px-4 py-12">
         <div className="grid grid-cols-2 gap-8 md:grid-cols-5">
           <div className="col-span-2 space-y-4 md:col-span-1">
@@ -58,13 +58,13 @@ export function Footer() {
             <h3 className="font-semibold text-foreground">Contact</h3>
             <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
               <li>
-                <a href="mailto:contact@novanext.com" className="hover:text-primary">
-                  contact@novanext.com
+                <a href="mailto:contact@nova-next.io" className="hover:text-primary">
+                  contact@nova-next.io
                 </a>
               </li>
               <li>
-                <a href="tel:+1234567890" className="hover:text-primary">
-                  +1 (234) 567-890
+                <a href="tel:+919672729258" className="hover:text-primary">
+                  +91 9672729258
                 </a>
               </li>
                <li>
@@ -77,7 +77,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-12 border-t pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} NovaNext. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} NovaNext.io. All rights reserved.</p>
         </div>
       </div>
     </footer>

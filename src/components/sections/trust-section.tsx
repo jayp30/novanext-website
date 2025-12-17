@@ -5,7 +5,7 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export function TrustSection() {
   return (
-    <section id="testimonials" className="bg-secondary/50">
+    <section id="testimonials" className="bg-transparent">
       <div className="container mx-auto max-w-7xl px-4">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="font-headline text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
@@ -25,7 +25,7 @@ export function TrustSection() {
                     <p>“{testimonial.quote}”</p>
                   </blockquote>
                 </CardContent>
-                <div className="border-t bg-card p-6">
+                <div className="border-t border-white/10 bg-card/80 p-6">
                   <div className="flex items-center">
                     {authorImage && (
                       <Image

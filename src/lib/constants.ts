@@ -171,17 +171,17 @@ export const PROCESS_STEPS = [
 export const TESTIMONIALS = [
   {
     quote: "NovaNext transformed our Amazon presence. Their expertise in listing optimization and PPC is unmatched. Our sales have grown by over 200%!",
-    name: "Aarav Sharma",
+    name: "Priya Singh",
     title: "Founder, Urban Living Co.",
   },
   {
     quote: "The strategic guidance for expanding into European markets was invaluable. NovaNext made a complex process feel simple and achievable.",
-    name: "Priya Singh",
+    name: "Rohan Mehta",
     title: "CEO, Global Exports Inc.",
   },
   {
     quote: "From store development to daily operations, NovaNext is a true partner. Their team is responsive, knowledgeable, and genuinely cares about our success.",
-    name: "Rohan Mehta",
+    name: "Aarav Sharma",
     title: "Director, TechGadgets",
   },
 ];

@@ -4,11 +4,11 @@ import { ArrowRight } from 'lucide-react';
 
 export function CtaSection() {
   return (
-    <section className="bg-background">
+    <section className="bg-transparent">
       <div className="container mx-auto max-w-7xl px-4">
-        <div className="relative overflow-hidden rounded-lg bg-primary/90 px-6 py-20 text-center shadow-xl sm:px-16">
-          <div
-             className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-primary to-transparent opacity-50"
+        <div className="relative overflow-hidden rounded-xl bg-primary/90 px-6 py-20 text-center shadow-2xl glass-card">
+           <div
+             className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-secondary to-transparent opacity-50"
              aria-hidden="true"
            />
           <h2 className="font-headline text-3xl font-bold tracking-tight text-primary-foreground sm:text-4xl">
