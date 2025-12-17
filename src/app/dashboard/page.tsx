@@ -4,7 +4,7 @@ import {
   ArrowUpRight,
   CircleDollarSign,
   CreditCard,
-  DollarSign,
+  IndianRupee,
   Users,
 } from 'lucide-react';
 import {
@@ -35,11 +35,11 @@ export const metadata: Metadata = {
 
 export default function DashboardPage() {
     const recentSales = [
-        { name: 'Olivia Martin', email: 'olivia.martin@email.com', amount: '+$1,999.00', status: 'Shipped' },
-        { name: 'Jackson Lee', email: 'jackson.lee@email.com', amount: '+$39.00', status: 'Shipped' },
-        { name: 'Isabella Nguyen', email: 'isabella.nguyen@email.com', amount: '+$299.00', status: 'Processing' },
-        { name: 'William Kim', email: 'will@email.com', amount: '+$99.00', status: 'Shipped' },
-        { name: 'Sofia Davis', email: 'sofia.davis@email.com', amount: '+$39.00', status: 'Delivered' },
+        { name: 'Olivia Martin', email: 'olivia.martin@email.com', amount: '+₹1,65,917.00', status: 'Shipped' },
+        { name: 'Jackson Lee', email: 'jackson.lee@email.com', amount: '+₹3,237.00', status: 'Shipped' },
+        { name: 'Isabella Nguyen', email: 'isabella.nguyen@email.com', amount: '+₹24,817.00', status: 'Processing' },
+        { name: 'William Kim', email: 'will@email.com', amount: '+₹8,217.00', status: 'Shipped' },
+        { name: 'Sofia Davis', email: 'sofia.davis@email.com', amount: '+₹3,237.00', status: 'Delivered' },
       ];
 
   return (
@@ -53,10 +53,10 @@ export default function DashboardPage() {
         <Card>
           <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
             <CardTitle className="text-sm font-medium">Total Revenue</CardTitle>
-            <DollarSign className="h-4 w-4 text-muted-foreground" />
+            <IndianRupee className="h-4 w-4 text-muted-foreground" />
           </CardHeader>
           <CardContent>
-            <div className="text-2xl font-bold">$45,231.89</div>
+            <div className="text-2xl font-bold">₹37,54,247</div>
             <p className="text-xs text-muted-foreground">+20.1% from last month</p>
           </CardContent>
         </Card>

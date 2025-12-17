@@ -7,12 +7,12 @@ import {
 } from '@/components/ui/chart';
 
 const data = [
-  { month: 'Jan', sales: 186 },
-  { month: 'Feb', sales: 305 },
-  { month: 'Mar', sales: 237 },
-  { month: 'Apr', sales: 273 },
-  { month: 'May', sales: 209 },
-  { month: 'Jun', sales: 214 },
+  { month: 'Jan', sales: 15438 },
+  { month: 'Feb', sales: 25315 },
+  { month: 'Mar', sales: 19671 },
+  { month: 'Apr', sales: 22679 },
+  { month: 'May', sales: 17347 },
+  { month: 'Jun', sales: 17782 },
 ];
 
 const chartConfig = {
@@ -40,9 +40,9 @@ export function SalesChart() {
             fontSize={12}
             tickLine={false}
             axisLine={false}
-            tickFormatter={(value) => `$${value}`}
+            tickFormatter={(value) => `₹${value / 1000}k`}
           />
-          <Tooltip content={<ChartTooltipContent />} />
+          <Tooltip content={<ChartTooltipContent formatter={(value) => `₹${value.toLocaleString()}`} />} />
           <Bar dataKey="sales" fill="var(--color-sales)" radius={[4, 4, 0, 0]} />
         </BarChart>
       </ResponsiveContainer>
