@@ -30,8 +30,8 @@ export default function ContactPage() {
     },
     {
       icon: MapPin,
-      title: 'Office',
-      value: 'Jaipur, Rajasthan, India',
+      title: 'Business Address',
+      value: '16, SHUBH VIHAR, HANUMAN MANDIR KE PAAS, Udaipur, Rajasthan, 313001',
     },
   ];
 
