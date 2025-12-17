@@ -1,3 +1,4 @@
+
 'use client';
 
 import { useState } from 'react';
@@ -199,3 +200,7 @@ export function ProductOptimizerForm() {
             )}
           </CardContent>
         </Card>
+      </div>
+    </div>
+  );
+}
