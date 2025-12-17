@@ -8,7 +8,7 @@ import { Menu } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { NAV_LINKS } from '@/lib/constants';
 import { Button } from '@/components/ui/button';
-import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet';
 import { Logo } from '@/components/logo';
 
 export function Header() {
@@ -52,7 +52,10 @@ export function Header() {
             </Button>
           </SheetTrigger>
           <SheetContent side="left" className="pr-0">
-            <Link href="/" className="mb-8" onClick={() => setIsMobileMenuOpen(false)}>
+            <SheetHeader>
+               <SheetTitle className="sr-only">Mobile Menu</SheetTitle>
+            </SheetHeader>
+            <Link href="/" className="mb-8 flex items-center" onClick={() => setIsMobileMenuOpen(false)}>
               <Logo />
             </Link>
             <div className="flex flex-col space-y-4">
