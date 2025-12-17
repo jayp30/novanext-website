@@ -55,6 +55,11 @@ export function Footer() {
                   +91 9672729258
                 </a>
               </li>
+              <li>
+                <a href="tel:+919358447567" className="hover:text-primary">
+                  +91 9358447567
+                </a>
+              </li>
                <li>
                   <Link href="/contact" className="text-sm text-muted-foreground hover:text-primary">
                     Talk to Experts

@@ -31,6 +31,11 @@ export default function ServicesPage() {
               <p className="mt-6 text-lg text-muted-foreground">
                 We offer a full spectrum of services designed to address every aspect of your online business. From foundational setup to advanced growth strategies, we have you covered.
               </p>
+              <div className="mt-8">
+                <p className="text-lg font-semibold text-primary">
+                  Service Packages Range from ₹10,000 to ₹9,99,000 INR
+                </p>
+              </div>
             </div>
           </div>
         </section>

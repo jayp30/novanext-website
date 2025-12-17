@@ -19,7 +19,7 @@ export default function RefundPolicyPage() {
 
             <h2>Service Fees</h2>
             <p>All fees for services rendered are non-refundable once the service has commenced. This includes consultation, strategy, development, and management services.</p>
-            <p>A portion of the fee may be refundable if a cancellation request is made before any work has begun, subject to a processing fee.</p>
+            <p>A portion of the fee may be refundable if a cancellation request is made before any work has begun, subject to a processing fee. Refunds will be credited within 5 to 10 days in original mode of payment.</p>
 
             <h2>Cancellations</h2>
             <p>You may cancel your service agreement at any time by providing written notice. Depending on the terms of your specific contract, a notice period may be required.</p>

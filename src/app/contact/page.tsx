@@ -23,6 +23,12 @@ export default function ContactPage() {
       href: 'tel:+919672729258',
     },
     {
+      icon: Phone,
+      title: 'Phone',
+      value: '+91 9358447567',
+      href: 'tel:+919358447567',
+    },
+    {
       icon: MapPin,
       title: 'Office',
       value: 'Jaipur, Rajasthan, India',
