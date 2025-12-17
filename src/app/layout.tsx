@@ -28,9 +28,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="!scroll-smooth" suppressHydrationWarning>
+    <html lang="en" className="dark !scroll-smooth" suppressHydrationWarning>
       <body className={cn('font-body antialiased', fontBody.variable, fontHeadline.variable)}>
-        <div className="flex min-h-screen flex-col">
+        <div className="flex min-h-screen flex-col bg-gradient-radial">
           <Header />
           <main className="flex-1">{children}</main>
           <Footer />
