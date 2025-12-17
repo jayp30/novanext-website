@@ -1,3 +1,4 @@
+
 import type { Metadata } from 'next';
 import { ProductOptimizerForm } from '@/components/tools/product-optimizer-form';
 
@@ -29,4 +30,7 @@ export default function ProductListingOptimizerPage() {
         <div className="container mx-auto max-w-4xl px-4">
             <ProductOptimizerForm />
         </div>
-      </section
+      </section>
+    </div>
+  );
+}
