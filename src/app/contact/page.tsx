@@ -66,7 +66,7 @@ export default function ContactPage() {
                  <h2 className="font-headline text-2xl font-bold">Contact Information</h2>
                  <p className="mt-2 text-muted-foreground">Find us at our office or reach out via phone or email.</p>
                 {contactDetails.map((detail) => (
-                  <Card key={detail.title}>
+                  <Card key={detail.value}>
                     <CardContent className="flex items-center gap-6 p-6">
                       <detail.icon className="h-8 w-8 text-primary" />
                       <div>
