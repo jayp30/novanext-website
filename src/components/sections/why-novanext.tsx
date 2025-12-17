@@ -34,3 +34,11 @@ export function WhyNovanext() {
                 fill
                 className="rounded-lg object-cover shadow-lg"
                 data-ai-hint={whyUsImage.imageHint}
+              />
+            )}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

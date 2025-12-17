@@ -80,3 +80,10 @@ export function Header() {
               <Button asChild>
                 <Link href="/tools" onClick={() => setIsMobileMenuOpen(false)}>Get Started</Link>
               </Button>
+            </div>
+          </SheetContent>
+        </Sheet>
+      </div>
+    </header>
+  );
+}
