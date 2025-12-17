@@ -31,7 +31,7 @@ export default function ContactPage() {
     {
       icon: MapPin,
       title: 'Business Address',
-      value: '16, SHUBH VIHAR, HANUMAN MANDIR KE PAAS, Udaipur, Rajasthan, 313001',
+      value: 'GIRBANA\n16, SHUBH VIHAR, HANUMAN MANDIR KE PAAS, Udaipur, Rajasthan, 313001',
     },
   ];
 
@@ -74,7 +74,7 @@ export default function ContactPage() {
                         {detail.href ? (
                             <a href={detail.href} className="text-muted-foreground hover:text-primary">{detail.value}</a>
                         ) : (
-                            <p className="text-muted-foreground">{detail.value}</p>
+                            <p className="whitespace-pre-line text-muted-foreground">{detail.value}</p>
                         )}
                       </div>
                     </CardContent>
