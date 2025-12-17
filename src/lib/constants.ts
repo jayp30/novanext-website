@@ -19,6 +19,7 @@ export const NAV_LINKS = [
   { href: '/about', label: 'About' },
   { href: '/services', label: 'Services' },
   { href: '/tools', label: 'Tools' },
+  { href: '/contact', label: 'Contact' },
 ];
 
 export type Service = {
@@ -189,7 +190,7 @@ export const TESTIMONIALS = [
 export const LEGAL_LINKS = [
   { href: '/privacy-policy', label: 'Privacy Policy' },
   { href: '/terms-and-conditions', label: 'Terms & Conditions' },
-  { href: '/refund-policy', label: 'Refund Policy' },
+  { href: '/refund-policy', label: 'Refund & Cancellation' },
   { href: '/shipping-policy', label: 'Shipping Policy' },
 ];
 

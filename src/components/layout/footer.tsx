@@ -5,7 +5,7 @@ import { NAV_LINKS, LEGAL_LINKS, TOOLS } from '@/lib/constants';
 export function Footer() {
   return (
     <footer className="border-t bg-transparent">
-      <div className="container mx-auto max-w-7xl px-4 py-12">
+      <div className="container mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 gap-8 md:grid-cols-5">
           <div className="col-span-2 space-y-4 md:col-span-1">
             <Logo />
